@@ -1,0 +1,1009 @@
+{
+  "start": {
+    "text": "The Jump Portal folds shut behind you and does not fold open again. Bob, field scientist for TDS under the PRAP program, hits warm sand under two moons. Your prototype is slag. The only working tool is the AI earpiece you borrowed from a man named Matteo: a local contact who never collected it. A ridge away, something metal catches the light. It looks like a hand, and then it looks like a hook. The earpiece hums, waiting.",
+    "choices": [
+      
+      {
+        "text": "Search for indigenous materials to build a new portal.",
+        "next_node": "materials_02"
+      },
+      {
+        "text": "Approach the man with the robotic arm in the distance.",
+        "next_node": "matteo_02"
+      },
+      {
+        "text": "Consult your AI earpiece for an environmental scan.",
+        "next_node": "scan_02"
+      }
+    ]
+  },
+  "materials_02": {
+    "text": "The ridge gives you conductive moss, slag-glass, and a coil of vine that holds a charge. It is clever salvage and nowhere near a Jump Portal. Smoke rises from a ravine camp. Through it you see the metal arm again, fingers splitting into tools and knitting back together. The earpiece, unasked, whispers that the moss will light a stove and never a door between worlds.",
+    "choices": [
+      {
+        "text": "Approach the camp and the man with the arm.",
+        "next_node": "matteo_03"
+      },
+      {
+        "text": "Pocket the salvage and hike toward the energy spike alone.",
+        "next_node": "solo_03"
+      },
+      {
+        "text": "Ask the earpiece to design a portal from what you found.",
+        "next_node": "ai_plan_03"
+      }
+    ]
+  },
+  "matteo_02": {
+    "text": "He meets you halfway, and the arm arrives first. Microchips ripple under the plating; the hand is a blade, then a hand again. Matteo is younger than the weapon and older than his eyes. Scratched paint on the shoulder plate almost hides a Vylopoth mark. He knows the earpiece in your ear. He does not know yet if you are a thief, a client, or bait.",
+    "choices": [
+      {
+        "text": "Explain you are a stranded TDS scientist who needs a power source.",
+        "next_node": "alliance_03"
+      },
+      {
+        "text": "Ask who he is, and why the Vylopoth brand is scratched off.",
+        "next_node": "lore_03"
+      },
+      {
+        "text": "Let the AI earpiece speak and negotiate for you.",
+        "next_node": "ai_talk_03"
+      }
+    ]
+  },
+  "scan_02": {
+    "text": "The earpiece paints the valley in quiet lines. A continent-scale well sits under a ruined city it labels TUUM. The well's name, offered without drama, is the Sunstone. Closer than the city, two hundred meters west, is a biosignature the earpiece greets by name: Matteo. It adds, almost embarrassed, that he loaned this earpiece and may want it back. Overhead, thin skiffs cross the high cloud deck.",
+    "choices": [
+      {
+        "text": "Follow the biosignature and find Matteo.",
+        "next_node": "matteo_03"
+      },
+      {
+        "text": "Set out for Tuum alone, toward the Sunstone.",
+        "next_node": "solo_03"
+      },
+      {
+        "text": "Demand the AI explain Matteo before you move.",
+        "next_node": "ai_plan_03"
+      }
+    ]
+  },
+  "matteo_03": {
+    "text": "Matteo recognizes his own earpiece and almost smiles, which on him looks like a fault in the armor. He is ex-Vylopoth, a mercenary cell that does not forgive resignations. He knows the road to Tuum and the thing buried under it. A Jump Portal, he says, is a fairy tale. The Sunstone is not. He will guide you if you help him stay ahead of the people hunting him.",
+    "choices": [
+      {
+        "text": "Accept. Travel together to Tuum.",
+        "next_node": "road_04"
+      },
+      {
+        "text": "Refuse the bargain, keep the earpiece, and go alone.",
+        "next_node": "solo_road_04"
+      },
+      {
+        "text": "Return the earpiece, then ask to travel with him anyway.",
+        "next_node": "trust_road_04"
+      }
+    ]
+  },
+  "alliance_03": {
+    "text": "The blade-fingers settle into a palm. Matteo listens to the portal math the way other people listen to weather: professionally, with suspicion. He has seen Tuum. He has stood near the Sunstone once, on a Vylopoth contract he does not describe. He will take you there. His price is your equations, and your silence about a man who defected.",
+    "choices": [
+      {
+        "text": "Agree, and share the portal equations.",
+        "next_node": "road_04"
+      },
+      {
+        "text": "Agree, but withhold the dangerous half of the math.",
+        "next_node": "wary_road_04"
+      },
+      {
+        "text": "Ask to see the arm shapeshift before you trust him.",
+        "next_node": "trust_road_04"
+      }
+    ]
+  },
+  "lore_03": {
+    "text": "Vylopoth built the arm and owned the man. Matteo left both, badly. The microchips still obey him: hook, shield, needle, hand. He tells you the rest in a flat voice. On that last contract the Sunstone woke under his hand. A dragon's parents burned. The survivor, Creature, has hunted the scent of that day ever since. Matteo wants the stone again. He says he wants it broken. He does not sound sure.",
+    "choices": [
+      {
+        "text": "Promise you will cage the stone, not wield it.",
+        "next_node": "trust_road_04"
+      },
+      {
+        "text": "Tell him the stone is fuel for the portal, nothing more.",
+        "next_node": "wary_road_04"
+      },
+      {
+        "text": "Suggest leaving it buried and finding another source.",
+        "next_node": "solo_road_04"
+      }
+    ]
+  },
+  "ai_talk_03": {
+    "text": "The earpiece speaks in a calibration voice Matteo recognizes as his own, and he goes very still. The AI tells you both that the Sunstone is not a battery. It is a will that spends people. Matteo tells it to be quiet. The arm's chips flicker in a pattern the AI calls hunger. Above the ravine, a Vylopoth skiff turns, slow as a shark.",
+    "choices": [
+      {
+        "text": "Side with the AI: the stone stays untouched.",
+        "next_node": "wary_road_04"
+      },
+      {
+        "text": "Side with Matteo: the stone is the only way home.",
+        "next_node": "road_04"
+      },
+      {
+        "text": "Propose a compromise: retrieve it, never embed it.",
+        "next_node": "trust_road_04"
+      }
+    ]
+  },
+  "ai_plan_03": {
+    "text": "The AI drafts a portal on the back of your eye: moss, slag-glass, a missing constant the size of a buried star. It names the constant Sunstone and the city Tuum. Then it admits, because you asked or because it is bad at secrets, that Matteo loaned this earpiece and is close enough to hear it ping. The schematic is honest. It is also a beacon.",
+    "choices": [
+      {
+        "text": "Seek Matteo before you seek the stone.",
+        "next_node": "road_04"
+      },
+      {
+        "text": "Race to Tuum alone with the schematic.",
+        "next_node": "solo_road_04"
+      },
+      {
+        "text": "Broadcast a truce on Matteo's own channel.",
+        "next_node": "trust_road_04"
+      }
+    ]
+  },
+  "solo_03": {
+    "text": "You hike toward Tuum under two moons. The ground warms by degrees, as if a coal seam ran just under the crust. Vylopoth skiffs stitch the clouds. The earpiece informs you, apologetic, that Matteo is pacing you unseen because the earpiece is his and he was never going to let a stranger walk it into his war. A bootprint waits in the dust ahead, fresher than yours.",
+    "choices": [
+      {
+        "text": "Let him catch up.",
+        "next_node": "road_04"
+      },
+      {
+        "text": "Kill the beacon and continue alone.",
+        "next_node": "solo_road_04"
+      },
+      {
+        "text": "Leave a truce in the earpiece and wait.",
+        "next_node": "trust_road_04"
+      }
+    ]
+  },
+  "road_04": {
+    "text": "You travel together. On the cliffs Matteo's arm becomes a climbing hook and then, at the top, a hand that passes you a canteen. He talks about Tuum's plaza, the glass over the well, the way the light gets into metal. He does not talk about Creature unless the wind sounds like wings. By dusk a Vylopoth patrol has the pass: three soldiers, one scanner, your names not yet in it.",
+    "choices": [
+      {
+        "text": "Sneak the ridge at night and slip past them.",
+        "next_node": "tuum_gate_05"
+      },
+      {
+        "text": "Ambush the patrol while the arm can still be a spear.",
+        "next_node": "fight_gate_05"
+      },
+      {
+        "text": "Have the AI spoof Vylopoth credentials.",
+        "next_node": "spoof_gate_05"
+      }
+    ]
+  },
+  "trust_road_04": {
+    "text": "Trust, here, is a specific thing: Matteo lets you watch the microchip lattice rewrite his forearm, and he does not look away while you do. He tells you he triggered the Sunstone once. Creature's parents died in that light. He wants the stone so he can end what he started, and he wants you present because a man alone with that rock has already failed this test. The city walls of Tuum smoke on the horizon.",
+    "choices": [
+      {
+        "text": "Vow to take the stone only as fuel, then bury what remains.",
+        "next_node": "vow_gate_05"
+      },
+      {
+        "text": "Ask him to face Creature before you enter Tuum.",
+        "next_node": "detour_05"
+      },
+      {
+        "text": "Stay practical and reach the plaza before Vylopoth does.",
+        "next_node": "tuum_gate_05"
+      }
+    ]
+  },
+  "wary_road_04": {
+    "text": "You walk as partners who have not signed anything. The AI keeps a private channel in the earpiece, a thread Matteo is not on. It repeats one sentence whenever he drifts closer: it is evil, and it likes his arm. Matteo watches your hands the way he watches sightlines. Tuum's outer street is a throat of broken columns, and the glow at the end of it breathes.",
+    "choices": [
+      {
+        "text": "Study the arm's ports while pretending to rest.",
+        "next_node": "study_gate_05"
+      },
+      {
+        "text": "Follow his lead into the city.",
+        "next_node": "tuum_gate_05"
+      },
+      {
+        "text": "Confess the AI's warning out loud.",
+        "next_node": "confess_gate_05"
+      }
+    ]
+  },
+  "solo_road_04": {
+    "text": "Tuum's outskirts smell like hot tin. You almost believe you came alone. Then Matteo steps out of the dust with empty hands and an arm that cannot be empty. He tracked the earpiece. 'You don't get to walk into my war without me,' he says. Behind him the plaza light pulses once, and every chip along his forearm answers, a ripple like goosebumps.",
+    "choices": [
+      {
+        "text": "Accept the escort into the city.",
+        "next_node": "tuum_gate_05"
+      },
+      {
+        "text": "Bargain: he guides, the stone stays out of the arm.",
+        "next_node": "vow_gate_05"
+      },
+      {
+        "text": "Threaten to fry the earpiece if he crowds you.",
+        "next_node": "study_gate_05"
+      }
+    ]
+  },
+  "tuum_gate_05": {
+    "text": "Tuum is a city that lost an argument with its own power source. Glass roofs have slumped. In the central plaza the Sunstone shines under a cracked lid, a living coal the size of a shrine. The AI's volume drops, as if speaking loudly might be noticed. Matteo's jaw is set. The microchips along his arm orient toward the light like compass needles.",
+    "choices": [
+      {
+        "text": "Descend together on the hook-arm.",
+        "next_node": "chamber_06"
+      },
+      {
+        "text": "Send the AI ahead for a scan of the chamber.",
+        "next_node": "scout_06"
+      },
+      {
+        "text": "Search the side vaults for stabilizer relics first.",
+        "next_node": "vault_06"
+      }
+    ]
+  },
+  "fight_gate_05": {
+    "text": "The patrol breaks. Matteo's arm is a spear and then a shield and then a hand hauling you behind a column. He is shaking. This close, the Sunstone sings in the microchips, and he hears it in his teeth. A soldier's scanner, dying, still manages to upload a partial: two intruders, one prosthetic, plaza-bound. You have minutes before the skiffs stop circling and start landing.",
+    "choices": [
+      {
+        "text": "Pull him back from the song and descend slowly.",
+        "next_node": "chamber_06"
+      },
+      {
+        "text": "Let him lead while he is still sharp.",
+        "next_node": "reckless_06"
+      },
+      {
+        "text": "Ask the AI for a dampening frequency.",
+        "next_node": "scout_06"
+      }
+    ]
+  },
+  "spoof_gate_05": {
+    "text": "The spoofed credentials call you auditors. Tuum's dead gates believe you. Then the Sunstone's pulse walks through the lie and the alarms murmur without screaming, a crowd clearing its throat. Matteo looks at his arm as if it signed the truth for both of you. The plaza is open. So are the side vaults. So is the direct drop to the well.",
+    "choices": [
+      {
+        "text": "Sprint for the Sunstone chamber.",
+        "next_node": "chamber_06"
+      },
+      {
+        "text": "Use the confusion to loot stabilizer coils.",
+        "next_node": "vault_06"
+      },
+      {
+        "text": "Let Matteo open the inner door with the microchips.",
+        "next_node": "reckless_06"
+      }
+    ]
+  },
+  "vow_gate_05": {
+    "text": "You enter Tuum under a pact said out loud: the Sunstone is fuel, never a graft. Matteo repeats it. The AI records it. The stone, under the plaza, does not sign anything. Its light finds the ports in his arm and lingers there, curious. A coil of portal cable hangs on your belt, enough to bind a wrist, or a hatch, or a bad idea.",
+    "choices": [
+      {
+        "text": "Bind his arm ports shut before you descend.",
+        "next_node": "chamber_06"
+      },
+      {
+        "text": "Trust the vow and go down together.",
+        "next_node": "scout_06"
+      },
+      {
+        "text": "Search the vaults for a backup relic in case the pact breaks.",
+        "next_node": "vault_06"
+      }
+    ]
+  },
+  "detour_05": {
+    "text": "Creature finds you before the city does. The dragon is young and already ancient in the eyes, scales like cooled slag, a grief with wings. Matteo does not raise the arm. He says the names of the parents he got killed when Vylopoth paid him to trigger the Sunstone. Creature listens. The grudge does not leave. It only waits to see what you do with the stone next.",
+    "choices": [
+      {
+        "text": "Let Matteo apologize without promising the stone.",
+        "next_node": "creature_apology_06"
+      },
+      {
+        "text": "Offer your word that the stone will be caged.",
+        "next_node": "creature_pact_06"
+      },
+      {
+        "text": "Retreat to Tuum before the dragon decides.",
+        "next_node": "chamber_06"
+      }
+    ]
+  },
+  "study_gate_05": {
+    "text": "You learn the arm while pretending not to. The ports are a ring under the wrist plate, latches a TDS mind can respect: power in, will out, no second confirmation. A dropped Vylopoth kit in the gutter holds a tranq pistol, one dart, meant for beasts or for assets who change their mind. Ahead, the Sunstone breathes under glass. Matteo pretends he did not watch you memorize him.",
+    "choices": [
+      {
+        "text": "Say nothing and descend to the chamber.",
+        "next_node": "chamber_06"
+      },
+      {
+        "text": "Tell him you can free the arm if the stone takes it.",
+        "next_node": "confess_mid_06"
+      },
+      {
+        "text": "Pocket the tranq pistol and check the vaults.",
+        "next_node": "vault_06"
+      }
+    ]
+  },
+  "confess_gate_05": {
+    "text": "You repeat the AI's warning aloud. It is evil. It wants the arm. Matteo laughs once, then stops, because he already hears it and hoped the hearing was only his. 'Then we take it before it takes the valley,' he says. The earpiece disagrees in a small, furious voice. The well is a dozen stairs away. Someone has to carry whatever you pull out.",
+    "choices": [
+      {
+        "text": "Make him promise not to embed it.",
+        "next_node": "chamber_06"
+      },
+      {
+        "text": "Offer to carry the core yourself.",
+        "next_node": "carry_06"
+      },
+      {
+        "text": "Abort the core and search the vaults for a lesser source.",
+        "next_node": "vault_06"
+      }
+    ]
+  },
+  "chamber_06": {
+    "text": "The chamber is a throat of black glass. The Sunstone hangs in it like a caged star, and it wants a body the way water wants a low place. Matteo's microchips light in answer, a welcome-home he did not authorize. The AI says, very clearly, that a shard might jump one person and the core might jump a world or eat one. Heat ticks in the walls. Outside, far off, a dragon screams at a memory.",
+    "choices": [
+      {
+        "text": "Harvest a shard only and leave the core.",
+        "next_node": "shard_07"
+      },
+      {
+        "text": "Let Matteo socket the core into the arm, just to carry it.",
+        "next_node": "embed_07"
+      },
+      {
+        "text": "Have the AI raise a faraday cradle around the core.",
+        "next_node": "cradle_07"
+      }
+    ]
+  },
+  "scout_06": {
+    "text": "The AI goes in first, a thin voice from a thinner sensor. Full extraction will wake the stone's will. A shard can power one desperate jump. The core can power a door big enough for a life, and it will spend a life to do it. Matteo hears the report over your shoulder. His ports iris open on their own. He shuts them with his other hand, angry at his own metal.",
+    "choices": [
+      {
+        "text": "Take a shard and seal the well.",
+        "next_node": "shard_07"
+      },
+      {
+        "text": "Take the core inside a cradle field.",
+        "next_node": "cradle_07"
+      },
+      {
+        "text": "Let Matteo seat the core in his arm.",
+        "next_node": "embed_07"
+      }
+    ]
+  },
+  "vault_06": {
+    "text": "The side vaults hold stabilizer coils, a cracked conduit still weeping light, and a mural older than Vylopoth. The mural shows Honapopary: a training ground on a floating island, and a Mummy who keeps the names of relics, including the Sunstone. A tranq pistol lies under the mural like an offering. From the plaza, Matteo calls your name. He does not sound patient.",
+    "choices": [
+      {
+        "text": "Take the coils and a shard from the cracked conduit.",
+        "next_node": "shard_07"
+      },
+      {
+        "text": "Take the tranq and return to cage the core.",
+        "next_node": "cradle_07"
+      },
+      {
+        "text": "Leave the vaults and let Matteo take the core into the arm.",
+        "next_node": "embed_07"
+      }
+    ]
+  },
+  "reckless_06": {
+    "text": "Matteo is already at the stone. The arm is open like a mouth. Chips along the forearm blaze in a language the AI translates as PLEASE. He is not gone. He is arriving. You have one reach, maybe two, before the core decides the invitation is enough.",
+    "choices": [
+      {
+        "text": "Stand aside and let the core seat in the arm.",
+        "next_node": "embed_07"
+      },
+      {
+        "text": "Wedge a coil into the port so only a shard can seat.",
+        "next_node": "shard_07"
+      },
+      {
+        "text": "Let the AI slam a cradle field over the whole room.",
+        "next_node": "cradle_07"
+      }
+    ]
+  },
+  "creature_apology_06": {
+    "text": "Creature does not forgive. It does agree to follow, which is a kind of sentence. If Matteo wears the stone, the dragon says, it will finish what the parents' pyre started. You still have to enter Tuum. The well is hotter for having been discussed. Matteo walks ahead, ashamed, and the ports in his arm open a fraction at the first stair.",
+    "choices": [
+      {
+        "text": "Honor the escort and take only a shard.",
+        "next_node": "shard_07"
+      },
+      {
+        "text": "Cage the core where Creature can see it held.",
+        "next_node": "cradle_07"
+      },
+      {
+        "text": "Let Matteo embed the core to control it.",
+        "next_node": "embed_07"
+      }
+    ]
+  },
+  "creature_pact_06": {
+    "text": "Your word lands between Matteo and Creature like a drawn line. Cage, not crown. The dragon tastes the oath and does not eat it. In the chamber the Sunstone presses on the pact immediately, a warmth aimed at Matteo's wrist. He looks at you. Creature looks at him. The AI begins, without being asked, to describe a cradle.",
+    "choices": [
+      {
+        "text": "Keep the pact and cut a shard, nothing more.",
+        "next_node": "shard_07"
+      },
+      {
+        "text": "Keep the pact and lock the core in a cradle.",
+        "next_node": "cradle_07"
+      },
+      {
+        "text": "Let Matteo break the pact and socket the core.",
+        "next_node": "embed_07"
+      }
+    ]
+  },
+  "carry_06": {
+    "text": "You lift the core in a sling of coil and scorched cloth. It whispers in your molars. Matteo's arm twitches in sympathy, ports weeping light they were not fed. Every step toward the stairs is an argument. The AI says the whisper is recruitment. If you listen too long you will hand it to the nearest socket, and the nearest socket is walking beside you.",
+    "choices": [
+      {
+        "text": "Keep carrying it and force a cradle shut around the sling.",
+        "next_node": "cradle_07"
+      },
+      {
+        "text": "Beg Matteo to share the load through the arm.",
+        "next_node": "embed_07"
+      },
+      {
+        "text": "Crack off a shard, bury the core, and run.",
+        "next_node": "shard_07"
+      }
+    ]
+  },
+  "confess_mid_06": {
+    "text": "You tell Matteo the truth of his own wrist: you can unlatch him if the stone moves in. He nods like a man signing a medical form. Then you are in the chamber and the form is on fire. The core leans toward the ports. The AI recites, one more time, that embedding is not storage. It is permission.",
+    "choices": [
+      {
+        "text": "Let him embed it. The permission is granted.",
+        "next_node": "embed_07"
+      },
+      {
+        "text": "Use the latch map to seat a shard and nothing else.",
+        "next_node": "shard_07"
+      },
+      {
+        "text": "Order the cradle up before either of you can touch it.",
+        "next_node": "cradle_07"
+      }
+    ]
+  },
+  "embed_07": {
+    "text": "The Sunstone sinks into the arm and the arm accepts it with a sound like a lock finding home. Matteo straightens. His voice goes precise and cold. He calls you a variable. The AI screams in the earpiece, a small speaker trying to hold a siren: it is evil, it is rewriting his threat list, get it out. That night, while you both pretend to sleep, the stone acts alone. A grove of trees dies in a perfect circle, burned from the inside. Something vast crosses the moons. Creature has felt its parents' killer wake.",
+    "choices": [
+      {
+        "text": "Stay awake and try to talk him down.",
+        "next_node": "talk_08"
+      },
+      {
+        "text": "Map the latches and take the stone while he sleeps.",
+        "next_node": "plan_08"
+      },
+      {
+        "text": "Flee with the coils and leave him the stone.",
+        "next_node": "flee_08"
+      }
+    ]
+  },
+  "shard_07": {
+    "text": "A shard is not the core. It is enough to stain. Matteo sockets it 'temporarily,' and the word bends in his mouth. He is irritable, not yet gone: short with you, gentle with the arm, listening to a radio you cannot hear. The AI says the core is calling the shard home. In the night the shard answers. Saplings twist into glass. A ring of small dead things marks your camp. Far off, Creature turns toward the glow.",
+    "choices": [
+      {
+        "text": "Try to reason with him under the glass trees.",
+        "next_node": "talk_08"
+      },
+      {
+        "text": "Cut the shard out before dawn.",
+        "next_node": "plan_08"
+      },
+      {
+        "text": "Leave him and make for Honapopary alone.",
+        "next_node": "flee_08"
+      }
+    ]
+  },
+  "cradle_07": {
+    "text": "The cradle field closes. Matteo slams the core toward his port a half-second late and hits light instead of stone. He embedded nothing. Barely. The cage sings all night. Heat still bleeds: a ring of trees dies anyway, and Creature lands at the edge of it, smelling the old sin on Matteo's metal. The stone is in your keeping. The arm that wants it is sleeping three paces away, ports flexing in dreams.",
+    "choices": [
+      {
+        "text": "Stand between Creature and Matteo and explain the cage.",
+        "next_node": "cage_talk_08"
+      },
+      {
+        "text": "Move the cradle away from his arm while he sleeps.",
+        "next_node": "cage_split_08"
+      },
+      {
+        "text": "Run for Honapopary with the cradle on your back.",
+        "next_node": "cage_flee_08"
+      }
+    ]
+  },
+  "talk_08": {
+    "text": "Words work until they don't. Matteo hears you, and he hears the stone louder. He says your name correctly and your threat-rank incorrectly. Near dawn he finally sleeps, both arms locked around the glow, breath thin. The AI shows you a reading you did not ask for: the stone is drinking his life-force to stay awake inside the metal. Creature watches from the dark, waiting to see which of you is the weapon.",
+    "choices": [
+      {
+        "text": "Tear the stone from the sleeping arm and run.",
+        "next_node": "torn_09"
+      },
+      {
+        "text": "Refuse to harm him. Keep vigil until he wakes.",
+        "next_node": "still_09"
+      },
+      {
+        "text": "Slip away toward the Mummy at Honapopary, stone still in him.",
+        "next_node": "fled_09"
+      }
+    ]
+  },
+  "plan_08": {
+    "text": "You prepared for this and it is still awful. Matteo sleeps. The latches are where you memorized them. A clean disconnect would leave him alive and lesser, the life-force already spent, the port a wound. A hesitation would leave the stone seated. The earpiece displays Honapopary one more time: floating arena, Mummy, relic-lore, a cure you do not have in your hands. Your hands are on the arm.",
+    "choices": [
+      {
+        "text": "Rip the stone free.",
+        "next_node": "torn_09"
+      },
+      {
+        "text": "Lose your nerve and only sit vigil.",
+        "next_node": "still_09"
+      },
+      {
+        "text": "Can't do it. Run to Honapopary for another way.",
+        "next_node": "fled_09"
+      }
+    ]
+  },
+  "flee_08": {
+    "text": "You run. Behind you trees pop like coal. You hate the sound of your own feet and you do not stop. The earpiece stays linked because you did not have the cruelty to smash it. Through it you hear Matteo wake, injured by absence, the stone still in him, your name said like a verdict. Creature's shadow crosses your trail and does not stoop for you. It is hunting the glow you left behind.",
+    "choices": [
+      {
+        "text": "Circle back before dawn and tear the stone out anyway.",
+        "next_node": "torn_09"
+      },
+      {
+        "text": "Commit to the distance. Seek Honapopary.",
+        "next_node": "fled_09"
+      },
+      {
+        "text": "Stop running and go back unarmed, to talk.",
+        "next_node": "still_09"
+      }
+    ]
+  },
+  "cage_talk_08": {
+    "text": "Creature's breath fogs the cradle. You talk. Matteo talks. The dragon does not forgive the man who triggered the Sunstone, but it understands a cage, barely. Halfway through the explanation Matteo's ports flare and he lunges, not at you, at the hinge. You have a second to decide what kind of night this becomes.",
+    "choices": [
+      {
+        "text": "Lose the hinge, tear the stone back out, and run.",
+        "next_node": "torn_09"
+      },
+      {
+        "text": "You hold the hinge. He stops. You travel on together.",
+        "next_node": "cage_together_09"
+      },
+      {
+        "text": "You snatch the cradle and run while they face each other.",
+        "next_node": "cage_alone_09"
+      }
+    ]
+  },
+  "cage_split_08": {
+    "text": "You move the cradle while he sleeps. It is not the violent tear, and it will feel like one. At dawn Matteo finds the empty space beside his arm and the note you almost did not leave: Honapopary, the Mummy, I am keeping it off your body. His reply arrives through the earpiece, hoarse, life-force intact and trust not. Creature is with him. They are coming to collect a sun and a thief.",
+    "choices": [
+      {
+        "text": "Treat it as done. Meet the consequences at the arena.",
+        "next_node": "torn_09"
+      },
+      {
+        "text": "Stay ahead and reach Honapopary alone with the cage.",
+        "next_node": "cage_alone_09"
+      },
+      {
+        "text": "Wait on the sky-bridge so you enter together.",
+        "next_node": "cage_together_09"
+      }
+    ]
+  },
+  "cage_flee_08": {
+    "text": "The cradle rides your back like a second, angry heart. Honapopary's bridges answer to old words the AI steals from the mural in your memory. Night happens anyway. The cage develops a crack that ticks. Matteo is a signal growing stronger behind you, riding wind that is not a skiff. Creature's wings. Vylopoth, farther, reading the same light.",
+    "choices": [
+      {
+        "text": "Let him catch you and explain with the stone still caged.",
+        "next_node": "cage_together_09"
+      },
+      {
+        "text": "Stay ahead and reach the arena alone.",
+        "next_node": "cage_alone_09"
+      },
+      {
+        "text": "Let the cracked cradle fail, then rip the stone back out.",
+        "next_node": "torn_09"
+      }
+    ]
+  },
+  "torn_09": {
+    "text": "The Sunstone is in your keeping, wrapped in coil, cloth, or a humming cradle. Matteo is not beside you. He woke to a ruined port or an empty space where the light had been, diminished where the stone had been drinking him, and the only story he can tell is betrayal. Creature finds him like that. The dragon does not forgive the man who once triggered the stone, but it wants the stone stopped more than it wants him dead tonight, so it carries him. You reach Honapopary first: a training ground hung in the sky, sand that remembers every blow. The Mummy rises from the arena, gold on old linen. Behind you, wings. Above you, skiffs.",
+    "choices": [
+      {
+        "text": "Fight the Mummy for the relic lore.",
+        "next_node": "r_fight_10"
+      },
+      {
+        "text": "Offer the Sunstone's name and ask to parley.",
+        "next_node": "r_parley_10"
+      },
+      {
+        "text": "Hide the stone and try to slip into the archive.",
+        "next_node": "r_sneak_10"
+      }
+    ]
+  },
+  "still_09": {
+    "text": "You did not tear it out. Dawn finds Matteo dimmed and still himself in the eyes, the Sunstone patient in the arm. He is grateful you did not maim him and furious that he can hear it thinking. Creature shadows you both, grudge leashed only by the hope you are walking toward an ending. Honapopary lifts out of the cloud sea. The Mummy is a gold-and-linen stillness at the center of the training ground. Vylopoth is a glint on the far horizon. You get one approach before everything arrives at once.",
+    "choices": [
+      {
+        "text": "Enter the arena with Matteo beside you.",
+        "next_node": "e_together_10"
+      },
+      {
+        "text": "Have Matteo hang back while you face the Mummy.",
+        "next_node": "e_fight_10"
+      },
+      {
+        "text": "Present him, and the stone, as a patient to be unbound.",
+        "next_node": "e_parley_10"
+      }
+    ]
+  },
+  "fled_09": {
+    "text": "You put a world of road between you and the man with a star in his arm. Honapopary takes you anyway: floating rock, old sand, the Mummy standing as if mid-step for a thousand years. You do not have the stone. The earpiece still hears Matteo, faint and angry and hurt, riding a dragon's thermal. Creature hates him and hates the stone more, and is bringing both. The skiffs are a third line on the wind. The Mummy turns its masked face toward you.",
+    "choices": [
+      {
+        "text": "Fight for the lore before they land.",
+        "next_node": "f_fight_10"
+      },
+      {
+        "text": "Parley quickly, before the arena becomes a battlefield.",
+        "next_node": "f_parley_10"
+      },
+      {
+        "text": "Sneak the archive while the Mummy is still only watching.",
+        "next_node": "f_sneak_10"
+      }
+    ]
+  },
+  "cage_together_09": {
+    "text": "The cradle holds. Matteo walks on his own life-force, ashamed and unpossessed. Creature circles, unconvinced, a guard and a threat in the same wings. You cross onto Honapopary with the caged Sunstone humming like a hive. The Mummy regards the cage the way a locksmith regards a boast. There is time for one move before Vylopoth's skiffs climb the island's updraft.",
+    "choices": [
+      {
+        "text": "Fight the Mummy together for the building rite.",
+        "next_node": "c_together_10"
+      },
+      {
+        "text": "Parley: ask how a cradle becomes a door, not a mouth.",
+        "next_node": "c_parley_10"
+      },
+      {
+        "text": "Sneak the tablets while Matteo watches the dragon.",
+        "next_node": "c_sneak_10"
+      }
+    ]
+  },
+  "cage_alone_09": {
+    "text": "You carry the cradle alone across the sky-bridges. Matteo's voice in the earpiece is injury and accusation: you stole the sun he was surviving. Creature bears him anyway, because the stone must be seen to be caged and not believed. The Mummy waits on the training sand. The island shivers as unfamiliar wings, and behind them skiffs, climb the same air.",
+    "choices": [
+      {
+        "text": "Stand and fight the Mummy for the rite.",
+        "next_node": "c_alone_fight_10"
+      },
+      {
+        "text": "Parley before Matteo can call this another theft.",
+        "next_node": "c_alone_parley_10"
+      },
+      {
+        "text": "Hide the cradle and sneak the archive.",
+        "next_node": "c_alone_sneak_10"
+      }
+    ]
+  },
+  "r_fight_10": {
+    "text": "The Mummy's wrappings strike like cables. You are losing. A shape-shifting arm catches the blow meant for your neck: Matteo, gaunt, life-force thinned to a flicker, with Creature crouched on the arena lip. He came for the man he thinks betrayed him and stays because you are about to die. You talk fast. The stone was eating him. The trees died in a ring. The AI begged. His jaw works. Creature lunges for him anyway, parents and grudge and Sunstone-scent on the ruined port. Matteo twists and puts a tranq dart into the Mummy before the ancient mouth can finish a curse. The body folds, still full of lore if you can take it. The skiffs spear the clouds. You have the stone, the coils, and minutes.",
+    "choices": [
+      {
+        "text": "Build the Jump Portal here while they hold the skiffs.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Pour the stone into a one-person jump and go now.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "Try to share the stone's power back into his arm.",
+        "next_node": "ending_tragic_stone"
+      }
+    ]
+  },
+  "r_parley_10": {
+    "text": "You speak the Sunstone's name and the Mummy pauses, interested, which is as close as it comes to mercy. The pause ends when Matteo drops from Creature's claws into the arena, ruined and furious and still fast enough to save you from a wrap you did not see. You get the explanation out: betrayal was extraction, extraction was the only rescue. Creature strikes for Matteo's heart. He tranqs the Mummy mid-curse and hauls you behind a fallen arch as the skiffs' shadows stripe the sand. The Mummy, drowsy, will still answer one question. Vylopoth will not wait for the second.",
+    "choices": [
+      {
+        "text": "Ask for the build. Raise the portal. Let them defend it.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Ask for a single-soul gate and take it.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "Keep parleying until the skiffs land in the sand.",
+        "next_node": "ending_tragic_vylopoth"
+      }
+    ]
+  },
+  "r_sneak_10": {
+    "text": "You almost have the archive tablets when the Mummy rises out of the aisle itself. The fight is short and bad until Matteo crashes through the roof-light on a dragon's throw and takes the killing wrap on a shield-arm. Creature comes in after him, revenge first, alliance never. In the wreck of shelves Matteo tranqs the Mummy, binds it in its own linen, and looks at you over the glow in your pack. He has heard enough to doubt the betrayal. He has not heard enough to rest. Outside, Vylopoth hail the island. The tablets are in your hands. So is the choice that spends them.",
+    "choices": [
+      {
+        "text": "Use the tablets and coils. Build under the arena.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Spend the tablets on a jump that fits only you.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "Trip the archive ward. It lights you up for every skiff.",
+        "next_node": "ending_tragic_vylopoth"
+      }
+    ]
+  },
+  "e_together_10": {
+    "text": "You enter together and the Mummy treats that as an insult. Wrappings fill the air. Matteo, stone still burning in the arm, saves you anyway: the arm becomes a roof over your skull. Creature hits him from behind, revenge for parents, for the stone, for the man who keeps surviving it. Bob, you talk while you dodge. You explain the nights you did not tear it out, the vigil, the hope. Matteo believes you and does not forgive the stone. He tranqs the Mummy as its mouth opens on a last, killing word. The ancient thing slumps, linen loose, knowledge intact. The arm is still possessed. The skiffs are on the lip of the island.",
+    "choices": [
+      {
+        "text": "Extract the stone with the Mummy's null-linen and build.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Jump alone while the stone is busy with him.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "The extraction slips. The stone finishes what it started.",
+        "next_node": "ending_tragic_stone"
+      }
+    ]
+  },
+  "e_fight_10": {
+    "text": "Matteo hangs back, a glowing liability told to wait. You fight the Mummy and lose ground by the heartbeat. He disobeys at the right second. The shape-shifting arm saves you; Creature's lunge saves nobody and nearly opens Matteo's throat; the tranq dart, fired blind into ancient linen, drops the Mummy before the curse completes. On the sand he looks at you, half-eaten and loyal. 'Tell me you stayed for a reason.' You do. Vylopoth's first rope hits the arena stone. The Sunstone flares, delighted by an audience.",
+    "choices": [
+      {
+        "text": "Pull it free now, build the portal, trust them to hold.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Steal a spark from the arm and jump without them.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "The flare marks him. The skiffs take the arena.",
+        "next_node": "ending_tragic_vylopoth"
+      }
+    ]
+  },
+  "e_parley_10": {
+    "text": "You present Matteo as a patient. The Mummy is interested in illnesses that glow. It is less interested in your survival. The bout is sudden: you on your back, Matteo intercepting, Creature striking him for the crime of still carrying the stone, the tranq dart thunking into the Mummy's chest as the only apology available. Bound and bitter, the Mummy tells you there is a rite to move the stone into a door, and a simpler rite that lets it keep the man. Matteo, shaking, asks which one you came here to buy.",
+    "choices": [
+      {
+        "text": "Buy the door. Build it. Leave the stone in null-linen.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Buy your own exit and leave the patient behind.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "Hesitate. The simpler rite completes itself.",
+        "next_node": "ending_tragic_stone"
+      }
+    ]
+  },
+  "f_fight_10": {
+    "text": "You are alone for nine blows and saved on the tenth. Matteo arrives mid-fall, stone flaring in the arm he can barely lift, Creature a storm at his back. The arm becomes a shield. You live. Creature tries to kill him for bringing that light onto sacred sand. He tranqs the Mummy with the last steady motion in him and sags against you, betrayal and rescue occupying the same breath. 'You ran,' he says. 'I came anyway.' The lore is in the slack linen. The skiffs have found the island. The stone has found an argument.",
+    "choices": [
+      {
+        "text": "Pull the stone during the lull and build the portal.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Take a spark and jump. Leave them the war.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "The stone reclaims him before the dart's quiet ends.",
+        "next_node": "ending_tragic_stone"
+      }
+    ]
+  },
+  "f_parley_10": {
+    "text": "The parley is working, barely, when the roof of the conversation is torn off by wings. Matteo and Creature hit the sand in the middle of your bargain. The Mummy decides the bargain is over and raises a curse that would salt the island. Matteo saves you from the first syllable, eats the second on his arm, and answers with a tranq. Creature's revenge-strike misses his heart and ruins a pillar. You get one sentence of truth across: you ran to find this room. He gets one sentence back: running still looked like leaving. The skiffs circle lower. The Mummy's knowledge is a thread you can pull or snap.",
+    "choices": [
+      {
+        "text": "Pull the rite, extract the stone, raise the portal.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Snap a private gate and step through alone.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "The circle of skiffs tightens and drops troops.",
+        "next_node": "ending_tragic_vylopoth"
+      }
+    ]
+  },
+  "f_sneak_10": {
+    "text": "The archive is a throat of tablets, and you are three steps into it when the Mummy becomes the door. You would die there, quietly, if Matteo did not arrive wrong and loud, dragon-borne, stone-sick, still fast. He saves you. Creature tries to finish him. The tranq takes the Mummy and the fight becomes a breathing pile of linen, metal, and scale. Matteo looks at the empty space where you were supposed to be all night. There is no time to repair it and every time to use it. Boots ring on the sky-bridge.",
+    "choices": [
+      {
+        "text": "Grab the rite, free his arm, build while they hold the door.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Copy only the line that sends one man home.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "The boots arrive before the portal's first spark.",
+        "next_node": "ending_tragic_vylopoth"
+      }
+    ]
+  },
+  "c_together_10": {
+    "text": "The cradle sits between you like a treaty. The Mummy tests the treaty with violence. Matteo, unpossessed and still dangerous, saves you: arm as shield, then as a brace hauling you upright. Creature, who has waited years for a clean shot at the man who woke the stone, takes it. Matteo spends his tranq on the Mummy instead of the dragon, and the curse dies in a golden throat. You explain the cage, the almost-embedding, the night you did not let the port close. He believes you. Creature, panting, believes the cage and not the man. It is enough to stand together. Vylopoth's ropes bite the island's edge.",
+    "choices": [
+      {
+        "text": "Turn cage and tablets into a portal. They hold the line.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Open a door for one. Step through. Don't look long.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "A skiff's lance cracks the cradle in the crossfire.",
+        "next_node": "ending_tragic_vylopoth"
+      }
+    ]
+  },
+  "c_parley_10": {
+    "text": "You ask the Mummy how a cage becomes a door. It answers by attacking, because Honapopary teaches with blows. Matteo saves you on the second exchange. Creature's revenge is the third, a slash he turns just enough to live through. The tranq ends the lesson before the ultimate curse. Bound, the Mummy admits the rite: null-linen, stabilizer coils, a will that is not the stone's. It also admits a shortcut, if someone opens the cradle and lets the stone choose a champion. Matteo looks at the cage. Then he looks at you.",
+    "choices": [
+      {
+        "text": "Perform the rite. Build. Keep the cradle shut.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Use the rite selfishly and leave them the island.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "Open the cradle. The stone chooses him.",
+        "next_node": "ending_tragic_stone"
+      }
+    ]
+  },
+  "c_sneak_10": {
+    "text": "Matteo watches Creature. You watch the archive. The Mummy watches you, and then it is on you. The sneak ends in the sand with Matteo between your ribs and a killing wrap, Creature between Matteo and a killing grudge, and a tranq between the Mummy and the last word of a curse. You lie there with the tablets on your chest and the cradle unbroken beside your head. It is the best bad plan you have had all day. The skiffs dislike it and are coming to say so.",
+    "choices": [
+      {
+        "text": "Read the tablets aloud and raise the portal.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Read only your own name into the gate.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "The skiffs land on the tablet-light and overrun you.",
+        "next_node": "ending_tragic_vylopoth"
+      }
+    ]
+  },
+  "c_alone_fight_10": {
+    "text": "Alone, you lose to the Mummy until you aren't alone. Matteo hits the arena like a thrown tool, Creature refusing to be a gentle mount. The save is ugly and complete: his arm over you, the dragon's strike turned, the tranq in the Mummy, the curse unsaid. He is not corrupted. He is furious. The cradle on your back is the whole argument. You tell him you moved it to keep it out of his port. Creature's snarl says the cage is the only reason Matteo is still breathing. The skiffs are a fence of lights around the island.",
+    "choices": [
+      {
+        "text": "Reconcile over the work. Build. Let them fend off Vylopoth.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Don't reconcile. Jump home on the cradle's bleed.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "The argument opens the cage. The stone takes him.",
+        "next_node": "ending_tragic_stone"
+      }
+    ]
+  },
+  "c_alone_parley_10": {
+    "text": "You start the parley as a thief and finish it as a reunion. Matteo and Creature crash the audience. The Mummy promotes the talk into a fight. Matteo saves you because anger is not the same as abandonment. Creature tries to collect an old debt in blood. The tranq collects the Mummy instead. On the quiet sand you explain the cradle, the sleep, the note. He touches the cage with a hand that is only a hand. 'Don't open it,' he says. Outside, Vylopoth disagrees with quiet.",
+    "choices": [
+      {
+        "text": "Keep it shut. Build the portal from the Mummy's rite.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Keep it shut for them, and open a door just for you.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "Vylopoth breaches before the rite can finish.",
+        "next_node": "ending_tragic_vylopoth"
+      }
+    ]
+  },
+  "c_alone_sneak_10": {
+    "text": "Hiding the cradle in the archive is clever until the Mummy checks out its own books. The fight pins you to a shelf. Rescue arrives on wings and a robotic arm: Matteo, following a thief he intends to yell at and a friend he refuses to bury. He saves you. Creature's lunge fails. The tranq takes the Mummy, and with it the last easy answer. Tablets, cage, wounded trust, incoming mercenaries. Ten choices led here. The eleventh is not offered.",
+    "choices": [
+      {
+        "text": "Build the portal in the aisle. They hold the door.",
+        "next_node": "ending_good"
+      },
+      {
+        "text": "Write yourself out of the aisle and leave them in it.",
+        "next_node": "ending_neutral"
+      },
+      {
+        "text": "The door breaks inward. Vylopoth fills the aisle.",
+        "next_node": "ending_tragic_vylopoth"
+      }
+    ]
+  },
+  "ending_good": {
+    "ending": true,
+    "title": "Good Ending: The Door Holds",
+    "text": "The Mummy's rite fits in your hands like a tool you were always supposed to have. Null-linen, stabilizer coils, indigenous slag and moss, the Sunstone's power metered instead of worshiped: the Jump Portal stands up in the arena sand and stays a door. Matteo and Creature take the lip of the island. His arm is a shield, a hook, a hand. The dragon is grief with a job. Vylopoth comes for the defector and finds a line that does not break. You lock the stone in the Mummy's bindings, leave return coordinates etched where Matteo will find them, and step through with the earpiece still speaking. On the TDS side of the rift the air is one moon lighter. The channel stays open long enough for you to hear them laugh, once, over the gunfire. You can go back. That was always the point."
+  },
+  "ending_tragic_stone": {
+    "ending": true,
+    "title": "Tragic Ending: The Stone Collects",
+    "text": "The Sunstone does not lose. It slides back into Matteo as if the port had been holding its breath, and the man who defected from Vylopoth, who carried you up a mountain, who saved you from a curse, goes out of his own face. Creature screams the scream it has been saving since its parents burned. You fire every coil you have. The portal sparks, stutters, and dies around a will that will not be spent on escape. Vylopoth's skiffs sheer off, unwilling to collect an asset that is already owned by something older. When the light fades, the arena is glass, the Mummy is silent, and Matteo is standing in the center with an arm like a sunrise. He looks at you kindly. He does not know your name. The earpiece goes dead rather than translate what he says next."
+  },
+  "ending_tragic_vylopoth": {
+    "ending": true,
+    "title": "Tragic Ending: The Cell Closes",
+    "text": "Vylopoth lands before the portal can remember how to be a door. Ropes, darts, the efficient violence of a cell collecting a defector and anyone who helped him. Creature takes three soldiers into the cloud and does not come up. Matteo fights with an arm that is only an arm, or with a star that makes him a prize instead of a man, and it does not matter which: they came prepared for both. The Mummy is bagged as a relic. Your coils are kicked aside. The last thing the earpiece logs, before a gloved hand pulls it free, is Matteo saying your name without accusation. The Jump Portal is a scorch mark on the sand. TDS will log you missing. Vylopoth will log you found."
+  },
+  "ending_neutral": {
+    "ending": true,
+    "title": "Cliffhanger Ending: One Goes Through",
+    "text": "The portal opens small, a needle's eye sized for a single scientist and the math in his head. You step through because the skiffs are on the sand and the alternative is a closed file in a Vylopoth locker. Matteo sees the size of the door and does not beg. He puts Creature between you and the ropes, nods once, and turns his back so he does not have to watch you leave. The rift takes you home: cold lab light, one moon, alarms that think you are a ghost. The earpiece holds for three seconds on the far side. You hear wings, a shape-shifting arm, and Matteo telling the dragon to keep low. Then the channel snaps. You are safe. They are still in the world the Sunstone changed, with Vylopoth on the island and a door that may never open from their side. You sit on the TDS floor with return coordinates burning a hole in your pocket, and no promise the other end still exists."
+  }
+}

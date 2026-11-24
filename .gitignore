@@ -1,0 +1,15 @@
+# Secrets & API keys (DO NOT push to GitHub)
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache files (created when you import request.py, etc.)
+__pycache__/
+*.py[cod]
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
+Thumbs.db
