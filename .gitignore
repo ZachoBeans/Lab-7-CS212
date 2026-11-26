@@ -13,3 +13,6 @@ __pycache__/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Game save file (created and deleted while playing)
+save.json

@@ -1,31 +1,8 @@
+# Plan, ideas, and some implementations created by Zach Snyder with assistance from AI for code generation
+
 # Lab 6 CS212 - Zach Snyder - 11/15/26
 
-# -- Project Name --
-# The Living Sunstone Text Adventure
-
-# -- Overview --
-# This game is based on a book I wrote in 3rd grade. When I was around 22, I ended up rewriting a lot of it to actually have it make sense
-# and so it sounded like an adult wrote it. I ended up writing a summary of the book during that time and after a while of working on the
-# project in general, I stopped.
-
-# So now, I used the summary that I had written and turned it into a 10 leveled interaction choose your own adventure game.
-
-# -- How I Used AI --
-# I used Generative AI to help me write my SPECS.md file which I then used to give my AI Assited Agent with more information to help
-# actually write the code for the game.
-
-# In general, I used AI to help me with most things for this project. It helped me write the code for the game. It helped me break down my
-# summary and turn it into the story.json file which includes the story content and choices. It generated the choices and interactions
-# from each choice based off of my summary.
-
-# -- How to Play --
-# The game is played by typing what you want to do. No options are shown; the AI matches your action to one of the story's hidden choices. After you run the game, you will be prompted to either start a new game, continue a current game, or quit. Current games
-# are saved automatically after each choice you make. If you type 'exit' during an interaction,
-# it will return you to the main menu. If you press continue, at that point, you will be returned to your last interaction you were on.
-
-# -- How to Run --
-# To run the game, you will need to have Python 3 installed on your computer
-# After that, you can run the game by using the terminal and running the command `python the_living_sunstone.py`
+# See readme.md for the project overview, how AI was used, and how to run/play the game and tests.
 
 import json
 import os
